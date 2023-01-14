@@ -1,0 +1,31 @@
+const chats=[
+    {
+       isGroupChat:false,
+       users:[
+        {
+         name:"abhi",
+         email:"abhi@gamil.com"
+        },{
+         name:"raka",
+         email:"raka@gamil.com"
+        }
+       ],
+       _id:"12345qwert54e4r4r4",
+       chatName:"Abhi",
+    },
+    {
+       isGroupChat:false,
+       users:[
+        {
+         name:"abhishek",
+         email:"abhishek@gamil.com"
+        },{
+         name:"rakash",
+         email:"rakash@gamil.com"
+        }
+       ],
+       _id:"12345q5456wert54e84r4r4",
+       chatName:"Abhishek",
+    }
+]
+module.exports=chats
